@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tasty Treats</title>
+        <link rel="stylesheet" href="order.css">
+        <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="dashboard">
+            <header>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="order.html">Order now</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </header>
+        </div>
+        <div class="form">
+            <h1>Customize your cake by Filling out the forms</h1><br>
+            <form action="" method="post">
+                <label for="flavor">Choose your desired flavor:</label>
+                <select id="flavor" name="flavor" required>
+                    <option value="Chocolate Cake">Chocolate Cake</option>
+                    <option value="Red Velvet Cake">Red Velvet Cake</option>
+                    <option value="Cheesecake">Cheesecake</option>
+                </select><br><br>
+                <hr><br>
+
+                <label for="size">Choose which cake size you like:</label><br>
+                <input type="radio" name="size" required>
+                <label for="6">6 inch cake</label><br>
+                <input type="radio" name="size" required>
+                <label for="8">8 inch cake</label required><br>
+                <input type="radio" name="size" required>
+                <label for="12">12 inch cake</label><br><br><hr><br>
+
+                <label for="design">Choose among the cake designs you would like to have:</label><br><br>
+                <input type="radio" name="design" required>
+                <label for="design1">Simple and Minimalistic
+                    <br><img src="simple1.jpg" alt="1">
+                </label><br>
+                <input type="radio" name="design" required>
+                <label for="design2">Pure Icing
+                    <br><img src="icing.jpg" alt="2">
+                </label><br>
+                <input type="radio" name="design" required>
+                <label for="design3">Fondant Decorative
+                    <br><img src="fondant.jpg" alt="3">
+                </label><br>
+                <hr>
+                <div class="contactinfo">
+                    <h4 class="info">Enter Your Contact Information</h4>
+                    <label for="Name">Name:</label>
+                    <input type="text" placeholder="Enter your name here" required><br><br>
+                    <label for="number">Phone Number:</label>
+                    <input type="number" placeholder="Enter your phone number here" required><br><br>
+                    <label for="location">Location:</label>
+                    <input type="text" placeholder="Enter your location here" required><br><br>    
+                    <label for="special">Special Instructions:</label><br>
+                    <textarea placeholder="Enter your special instructions here for efficient delivery" name="special" id="special"></textarea>                
+                </div><br>
+                <button class="submit" type="submit">Submit Your Order</button>&nbsp;&nbsp;&nbsp;
+                <input id="cancel" type="reset" value="Cancel Order" onclick="window.location='home.html'">
+            </form>
+        </div>
+        <br>
+    </body>
+</html>

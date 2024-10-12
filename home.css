@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Ambit-Regular';
+    src: url(Ambit-Regular.ttf);
+}
+@font-face {
+    font-family: 'engraved';
+    src: url(engraved.otf);
+}
+@font-face {
+    font-family: 'SilvexEditorial-Regular-BF66f36842cab8b';
+    src: url(SilvexEditorial-Regular-BF66f36842cab8b.otf);
+}
+.dashboard li{
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dashboard ul{
+    margin-top: 28px;
+    gap: 30px;
+    display: flex;
+}
+.dashboard{
+    position: fixed;
+    background-color: rgb(166, 199, 231);
+    width: 100%;
+    height: 2cm;
+    top: 0;
+    left: 0;
+    & a{
+        text-align: center;
+    }
+}
+body{
+    background-color: rgb(243, 241, 180);
+}
+.dashboard a{
+    text-decoration: none;
+    color: black;
+    &:hover{
+        background-color: rgb(110, 136, 221);
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        padding: 5px;
+    }
+}
+.desc{
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Ambit-Regular';
+    font-size: 2svw;
+    padding: 20px;
+    & h1{
+        font-family: 'engraved';
+        font-size: 6svw;
+        margin-bottom: -5px;
+    }
+    & h2{
+        font-size: 5svw;
+        font-family: 'SilvexEditorial-Regular-BF66f36842cab8b';
+        margin-bottom: -10px;
+    }
+}
+hr{
+    display: block;
+    border: 1px solid #020510;
+    padding: 0.1px;
+    background-color: #020510;
+    width: 80%;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.103);
+}

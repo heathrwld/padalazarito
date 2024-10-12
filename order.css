@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Ambit-Regular';
+    src: url(Ambit-Regular.ttf);
+}
+@font-face {
+    font-family: 'engraved';
+    src: url(engraved.otf);
+}
+@font-face {
+    font-family: 'SilvexEditorial-Regular-BF66f36842cab8b';
+    src: url(SilvexEditorial-Regular-BF66f36842cab8b.otf);
+}
+.dashboard li{
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dashboard ul{
+    margin-top: 28px;
+    gap: 30px;
+    display: flex;
+}
+.dashboard{
+    position: fixed;
+    background-color: rgb(166, 199, 231);
+    width: 100%;
+    height: 2cm;
+    top: 0;
+    left: 0;
+    & a{
+        text-align: center;
+    }
+}
+body{
+    background-color: rgb(243, 241, 180);
+}
+.dashboard a{
+    text-decoration: none;
+    color: black;
+    &:hover{
+        background-color: rgb(110, 136, 221);
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        padding: 5px;
+    }
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3svw;
+    font-family: 'engraved';
+    letter-spacing: 0.2svw;
+    color:black;
+}
+.form{
+    margin-top: 3cm;
+    padding: 1cm;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 13px;
+    color: #181616;
+    font-family: 'Ambit-Regular';
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.278);
+    margin-left: 4dvw;
+    margin-right: 4dvw;
+}
+.form img{
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.info{
+    text-align: center;
+    font-family: 'engraved';
+    font-size: 3dvw;
+    letter-spacing: 0.2dvw;
+    color: black;
+}
+.contactinfo input{
+    width: 100%;
+    padding-right: 0px;
+}
+select, input, button, textarea{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+button:hover{
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.384);
+}
+#cancel:hover{
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.384);
+}
+textarea{
+    width: 100%;
+    height: 50px;
+    padding-right: 1px;
+}
